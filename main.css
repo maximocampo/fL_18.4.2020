@@ -282,6 +282,7 @@ textarea {
 
 
 }
+
 @keyframes breathe {
   0%   {opacity: 0;}
   40%  {opacity: 1;}
@@ -293,5 +294,15 @@ textarea {
   animation-name: breathe;
   animation-duration: 7s;
   animation-iteration-count: infinite;
+  width: 40%;
+}
+#hands {
+  width: 40%;
 }
 
+  @media (max-width: 768px) {
+    #shad, #hands {
+      width: 60%
+    }
+
+  }
